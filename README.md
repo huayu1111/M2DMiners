@@ -2,12 +2,14 @@ A toolbox for miRNA-disease association prediction.
 
 This toolbox contains 5 softwares:
 
-1) Combinatorial prioritization algorithm by imformatiion flow maximization
+1) MaxFlow (Combinatorial prioritization algorithm by imformatiion flow maximization)
 
-2) Jiang’s method (hypergeometric distribution based test)
+2) Jiang’s method (Hypergeometric distribution based test)
 
 3) RWRMDA ( Random Walk with Restart for MiRNA–Disease Association)
 
-4) MicroRNA-based similarity inference
+4) HDMP (K-nearest neighbors algorithm)
 
-5) K-nearest neighbors algorithm
+5) RLSMDA (Regularized Least Squares for MiRNA-Disease Association)
+
+6) NCPMDA ( Network Consistency Projection for miRNA-Disease Associations)
