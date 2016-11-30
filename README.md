@@ -8,7 +8,7 @@ This toolbox contains 5 softwares:
 
 3) RWRMDA ( Random Walk with Restart for MiRNA–Disease Association)
 
-4) HDMP (K-nearest neighbors algorithm)
+4) HDMP (Weighted K-nearest neighbors algorithm)
 
 5) RLSMDA (Regularized Least Squares for MiRNA-Disease Association)
 
