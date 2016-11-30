@@ -1,5 +1,5 @@
 function [CandiRankList] = RLSMDA(candiMiRNAs,miRNA_name,MiFunSim,DiPheSim,mi2diNetwork,DiseaseIndex)
-w=0.1;
+w=0.9;
 CandiValueList=zeros(length(candiMiRNAs),1);
 [MnRow,~] = size(MiFunSim);
 MIMatrix = eye(MnRow);
