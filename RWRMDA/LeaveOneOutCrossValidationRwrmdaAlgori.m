@@ -4,7 +4,7 @@ load([DataPath,'miRNA&DiseaseName.mat']);
 load([DataPath,'miRNA&DiseaseRelationship.mat']);
 RowSumMiFunSim=sum(MiFunSim);
 Diag=diag(RowSumMiFunSim);
-MiFunSim=((pinv(Diag)).^(0.5))*MiFunSim*((pinv(Diag)).^(0.4));
+MiFunSim=((pinv(Diag)).^(0.5))*MiFunSim*((pinv(Diag)).^(0.5));
 FinalCandiRankList=cell(0,0);
 for i=1:length(Disease_name) %#ok<*USENS>
     logicIndex=strcmp(Disease_name{i},miRNA2disease(:,2)); %#ok<*NODEF>
