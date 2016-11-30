@@ -6,9 +6,9 @@ function [CandiRankList] = NCPMDA(candiMiRNAs,miRNA_name,MiFunSim,DiPheSim,mi2di
 	ncp_m = zeros(RnRow,RnCol)+10^-30;
 	ncp_d = zeros(RnRow,RnCol)+10^-30;
 	ncp =zeros(RnRow,RnCol);
-    for j = 1:RnCol
-        ncp_m(:,j) = (MiFunSim*mi2diNetwork(:,j))/norm(mi2diNetwork(:,j));
-    end
+    	for j = 1:RnCol
+        	ncp_m(:,j) = (MiFunSim*mi2diNetwork(:,j))/norm(mi2diNetwork(:,j));
+    	end
 
 	for i = 1:RnRow
 		ncp_d(i,:) = (mi2diNetwork(i,:)*DiPheSim)/norm(mi2diNetwork(i,:));
