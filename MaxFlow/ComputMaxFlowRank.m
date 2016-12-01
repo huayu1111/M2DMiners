@@ -2,7 +2,7 @@ function [CandiRankValue,FlowValue,CutMatrix,RMatrix] = ComputMaxFlowRank(Heter_
 %==================================================================================
 % [CandiRankValue,FlowValue,CutMatrix,RMatrix] =ComputMaxFlowRank(Heter_Network)
 % Heter_Network--phenome-microRNAome network
-% CandiRankValue--Candidate microRNAs rank list
+% CandiRankValue--Candidate microRNAs ranked list
 % detailed information see max-flow function
 %==================================================================================
 [FlowValue, CutMatrix, RMatrix,FMatrix]=max_flow(Heter_Network,size(Heter_Network,1)-1,size(Heter_Network,1));
