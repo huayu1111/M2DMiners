@@ -1,7 +1,7 @@
 function [FinalCandiRankListKnn,AUC] = KnnMain()
 clear all; clc;
 %== setting initilize program input parameters
-DataPath='E:\WorkDir\Knn\Data\Version2010\';
+DataPath='E:\WorkDir\Knn\Data\Versio2010\';
 load([DataPath,'mi2diNetwork.mat']);
 % DiseaseName='Breast Neoplasms';
 Alta=4;
