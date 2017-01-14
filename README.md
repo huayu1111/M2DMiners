@@ -1,6 +1,6 @@
 A toolbox for miRNA-disease association prediction. 
 
-This toolbox contains 5 softwares:
+This toolbox contains 6 softwares:
 
 1) MaxFlow (Combinatorial prioritization algorithm by imformatiion flow maximization)
 
